@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:padding="10dp"
+        android:gravity="center|top"
+        android:minHeight="25px"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1"
+        android:background="#ff546e7a">
+        <Button
+            android:text="Button"
+            android:layout_width="164.0dp"
+            android:layout_height="68.0dp"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/button1" />
+
+        <Switch
+            android:id="@+id/do_switch"
+            android:text="Is Xamarin.Android great?"
+            android:layout_width="wrap_content"        
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:checked="true"
+            android:textOn="not yet"
+            android:textOff="done"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:thumbTint="#ffd500f9" />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="54.0dp"
+            android:id="@+id/web"
+            android:hint="web"
+            android:background="#ffffffff" />
+
+            <Button
+                android:text="Display"
+                android:layout_width="164.0dp"
+                android:layout_height="68.0dp"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/display" />
+    </LinearLayout>
+</RelativeLayout>
